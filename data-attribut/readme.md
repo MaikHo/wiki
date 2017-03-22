@@ -1,8 +1,9 @@
 https://www.sitepoint.com/use-html5-data-attributes/
+
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
+
 http://jsfiddle.net/9n4e1agn/1/
 
-<code>
 
     $(document).ready(function(){
         $("[data='test']").css("background-color", "yellow");
@@ -24,4 +25,4 @@ http://jsfiddle.net/9n4e1agn/1/
         <li>Pluto</li>
     </ul>
 
-</code>
+
