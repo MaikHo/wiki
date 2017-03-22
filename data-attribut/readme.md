@@ -2,7 +2,14 @@ https://www.sitepoint.com/use-html5-data-attributes/
 
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
 
+## API jQuery
+http://api.jquery.com/category/miscellaneous/data-storage/
+
+
+## Beispiele
 http://jsfiddle.net/9n4e1agn/1/
+
+https://jsfiddle.net/ed5axgvk/1/
 
 
     $(document).ready(function(){
@@ -26,3 +33,16 @@ http://jsfiddle.net/9n4e1agn/1/
     </ul>
 
 
+noch ein Beispiel
+
+    <span class="label" data-warning>
+    
+    [data-warning] {
+        background: red;
+    }
+
+But what if we wanted to style it based on the data attribute's value? This will work for any data-warning attribute that contains the word error:
+
+    [data-warning*=error] {
+        color: red;
+    }
