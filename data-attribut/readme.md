@@ -6,6 +6,12 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
 http://api.jquery.com/category/miscellaneous/data-storage/
 
 
+## Idee
+data-kategorie ,kategorie kommt mit aus der DB mit und auf dem Client nachher per Javascript zusammenfassen und anzeigen lassen.
+
+selbst mit data-label kann man sich in HTML die schreibarbeit sparen und das Label mit :before anzeigen lassen
+
+
 ## Beispiele
 http://jsfiddle.net/9n4e1agn/1/
 
