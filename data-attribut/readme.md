@@ -46,3 +46,25 @@ But what if we wanted to style it based on the data attribute's value? This will
     [data-warning*=error] {
         color: red;
     }
+
+
+Bootstrap uses data attributes as an HTML alternative to configuring plugins via JavaScript. Here's an example of a popover:
+
+    <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus    sagittis lacus vel augue laoreet rutrum faucibus.">
+        Popover on top
+    </button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
